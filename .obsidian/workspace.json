@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anti money laundering.md",
+                "file": "Sequence Modelling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "anti money laundering"
+              "title": "Sequence Modelling"
             }
           }
         ],
@@ -193,12 +193,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86ce3c119fd656ab",
+  "active": "bb49dfa19b3fcfe2",
   "lastOpenFiles": [
     "Sequence Modelling.md",
+    "anti money laundering.md",
     "Map of Everything.md",
     "Automated Theorem Provers.md",
-    "anti money laundering.md",
     "Computer vision.md",
     "create a link.md"
   ]
