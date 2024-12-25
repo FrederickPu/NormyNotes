@@ -1,0 +1,13 @@
+- [old school computer vision](https://www.youtube.com/@firstprinciplesofcomputerv3258) (basically all the basic opencv features)
+	- optical fields and motion/camera tracking
+	- image preprocessing 
+	- edge detection
+- ai fraud detection
+	- [[anti money laundering]]
+- machine learning computer vision
+	- NERF
+	- SLAM
+	- neural object tracking
+	- pose estimation
+	- video classification
+	- video translation
