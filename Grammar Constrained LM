@@ -5,3 +5,7 @@ https://arxiv.org/abs/2305.13971
 Given a language L with decidable prefix membership   (for any string a, we can decide if there is a string b such that ab is in L):
 
 We can simply filter out all tokens that make the current string fail prefix membership at each deciding step.
+
+More generally, for languages without decidable prefix membership:
+
+Tree search algorithms such as best first search need to be used to decode a valid sequence of tokens.
