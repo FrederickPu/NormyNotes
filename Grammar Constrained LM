@@ -9,3 +9,7 @@ We can simply filter out all tokens that make the current string fail prefix mem
 More generally, for languages without decidable prefix membership:
 
 Tree search algorithms such as best first search need to be used to decode a valid sequence of tokens.
+
+## Applications to ml theorem proving
+
+can skip pre training phase and go straight to unsupervised rl minif2f style training
