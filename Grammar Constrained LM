@@ -13,3 +13,9 @@ Tree search algorithms such as best first search need to be used to decode a val
 ## Applications to ml theorem proving
 
 can skip pre training phase and go straight to unsupervised rl minif2f style training
+
+### specific use case: find and fix style theorem proving networks
+
+a find and fix network takes in a lean 4 tactic state and produce a partially completed lean tactic. The network is the run recursively on each of the holes in the partial tactic. An example of this style of network is deepseekprover.
+
+Instead consider the entire lean language as a formal language/grammar we would only consider the formal language of lean tactic terms (where holes are expressed using `_?`)
