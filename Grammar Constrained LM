@@ -10,6 +10,10 @@ More generally, for languages without decidable prefix membership:
 
 Tree search algorithms such as best first search need to be used to decode a valid sequence of tokens.
 
+---
+
+We don't need data to get the language model to learn the grammar, instead we can just get it to generate random trajectories and punish it whenever an invalid token is given a nonzero probability.
+
 ## Applications to ml theorem proving
 
 can skip pre training phase and go straight to unsupervised rl minif2f style training
