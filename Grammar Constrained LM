@@ -1,0 +1,7 @@
+Any language model can be turned into a language model that only outputs strings satisfying a particular grammar simply by modifying how logits are decoded into tokens.
+
+https://arxiv.org/abs/2305.13971
+
+Given a language L with decidable prefix membership   (for any string a, we can decide if there is a string b such that ab is in L):
+
+We can simply filter out all tokens that make the current string fail prefix membership at each deciding step.
